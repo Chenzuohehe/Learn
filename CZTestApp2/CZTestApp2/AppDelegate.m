@@ -17,8 +17,32 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
     return YES;
 }
+
+//接受消息代码
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    NSString *receText = [[url host]stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSLog(@"%@我来自程序1    %@",receText, url.absoluteString);
+    
+    
+    [self performSelector:@selector(goBackToApp1) withObject:nil afterDelay:2];
+    
+    return YES;
+    
+}
+
+- (void)goBackToApp1 {
+    NSLog(@"我判断能否出发前往程序1");
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"CZTestApp1://"]]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"CZTestApp1://paySuccess=1"]];
+        NSLog(@"我出发前往程序1");
+    }
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

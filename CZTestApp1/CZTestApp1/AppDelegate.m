@@ -17,6 +17,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 4;
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"CZTestApp2:"]]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"CZTestApp2:"]];
+//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"sms:10086"]];
+        
+    }
+    
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    NSString *receText = [[url host]stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSLog(@"%@    %@",receText, url.absoluteString);
+    
+    
     return YES;
 }
 
