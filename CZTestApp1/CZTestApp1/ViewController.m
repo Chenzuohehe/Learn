@@ -23,5 +23,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)openCZTestApp2:(id)sender {
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"CZTestApp2:"]]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"CZTestApp2:"]];
+        
+    }else{
+        NSLog(@"我没能打开");
+    }
+    
+}
+
+
 
 @end
