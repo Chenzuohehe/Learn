@@ -56,7 +56,7 @@
     NSLog(@"11%@",result);
     
 //    NSString * utf8mail = [result stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    NSString * utf8mail = [result stringByRemovingPercentEncoding];//iOS 9.0之后推荐的转换方法
+    NSString * utf8mail = [result stringByRemovingPercentEncoding];//iOS 9.0之后推荐的转换方法https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/index.html#//apple_ref/occ/instm/NSString/stringByAddingPercentEncodingWithAllowedCharacters:
     NSLog(@"%@",utf8mail);
     
 }
