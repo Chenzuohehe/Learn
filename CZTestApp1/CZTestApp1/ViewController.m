@@ -34,5 +34,33 @@
 }
 
 
+- (IBAction)openEmail:(id)sender {
+    //如果能打开email
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"mailto:"]]) {
+        
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:first@example.com?cc=second@example.com,third@example.com&bcc=fourth@example.com&subject=my%20email&body=%3Cb%3Eemail%3C/b%3E%E6%88%91%E6%9D%A5%E7%9C%8B%E7%9C%8B%E4%B8%AD%E6%96%87%20body!"]];
+        //其中first@example.com 是接收人
+        //cc=抄送
+        //bcc=密送
+        //subject=主题
+        //body=内容
+        
+        
+    }
+    //其中用中文的需要uft8转换格式
+    NSString * mail = @"我是内容";
+    //        mail stringByAddingPercentEscapesUsingEncoding:<#(NSStringEncoding)#>
+    //        NSString *str = ...; // some URL
+    NSCharacterSet *set = [NSCharacterSet URLQueryAllowedCharacterSet];
+    NSString *result = [mail stringByAddingPercentEncodingWithAllowedCharacters:set];//iOS 7.0之后推荐的转换方法
+    NSLog(@"11%@",result);
+    
+//    NSString * utf8mail = [result stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString * utf8mail = [result stringByRemovingPercentEncoding];//iOS 9.0之后推荐的转换方法
+    NSLog(@"%@",utf8mail);
+    
+}
+
+
 
 @end

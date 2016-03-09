@@ -30,6 +30,25 @@
                                     <action selector="openCZTestApp2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4lG-TG-3mw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0f2-F0-TyW">
+                                <rect key="frame" x="103" y="191" width="128" height="30"/>
+                                <state key="normal" title="utf8编码 转码"/>
+                                <connections>
+                                    <action selector="openEmail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lxh-Sg-hkz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HM1-WB-BxB">
+                                <rect key="frame" x="103" y="249" width="128" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je3-4H-ZfV">
+                                <rect key="frame" x="103" y="303" width="128" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ey9-jT-Upo">
+                                <rect key="frame" x="103" y="356" width="128" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

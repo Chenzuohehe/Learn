@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  CZTestApp1
+//  CZTestApp3
 //
-//  Created by MAC on 16/3/7.
+//  Created by MAC on 16/3/9.
 //  Copyright © 2016年 chenzuo. All rights reserved.
 //
 
@@ -17,28 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    
-    
-    
-    
-    
-    return YES;
-}
-
-
-
-
-- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
-    NSString *receText = [[url host]stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    
-//    [url host]
-  
-    
-    
-    NSLog(@"%@    %@",receText, url.absoluteString);
-    
-    
     return YES;
 }
 
