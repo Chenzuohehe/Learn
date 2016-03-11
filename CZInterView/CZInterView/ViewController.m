@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  CZTestApp3
+//  CZInterView
 //
-//  Created by MAC on 16/3/9.
+//  Created by MAC on 16/3/11.
 //  Copyright © 2016年 chenzuo. All rights reserved.
 //
 
@@ -22,8 +22,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-- (IBAction)openApp2:(id)sender {
 }
 
 @end
