@@ -23,19 +23,19 @@
     self=[super initWithFrame:frame];
     
     if( self ){
-        self.webview=[[UIWebView alloc]initWithFrame:CGRectMake(0, 310, self.bounds.size.width, 300)];
-        self.webview.backgroundColor=[UIColor lightGrayColor];
-//        NSString *htmlPath=[[NSBundle mainBundle] resourcePath];
-//        htmlPath=[htmlPath stringByAppendingPathComponent:@"html/index.html"];
-//        NSURL *localURL=[[NSURL alloc]initFileURLWithPath:htmlPath];
-        
-        NSURL * url = [NSURL URLWithString:@"http://192.168.1.27:8080/pc/bank/testWebView.do"];
-//        NSURLRequest * req = [NSURLRequest requestWithURL:url];
-        [self.webview loadRequest:[NSURLRequest requestWithURL:url]];
-        [self addSubview:self.webview];
+//        self.webview=[[UIWebView alloc]initWithFrame:CGRectMake(0, 310, self.bounds.size.width, 300)];
+//        self.webview.backgroundColor=[UIColor lightGrayColor];
+////        NSString *htmlPath=[[NSBundle mainBundle] resourcePath];
+////        htmlPath=[htmlPath stringByAppendingPathComponent:@"html/index.html"];
+////        NSURL *localURL=[[NSURL alloc]initFileURLWithPath:htmlPath];
+//        
+//        NSURL * url = [NSURL URLWithString:@"http://192.168.1.27:8080/pc/order/toOrderSuccess?type=1&orderId=2016032510004862#"];
+////        NSURLRequest * req = [NSURLRequest requestWithURL:url];
+//        [self.webview loadRequest:[NSURLRequest requestWithURL:url]];
+//        [self addSubview:self.webview];
         
         JSContext *context = [self.webview valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-        context[@"jakilllog"] = ^() {
+        context[@"iosCallback"] = ^() {
             
             NSLog(@"+++++++Begin Log+++++++");
             NSArray *args = [JSContext currentArguments];
@@ -69,13 +69,13 @@
         //        htmlPath=[htmlPath stringByAppendingPathComponent:@"html/index.html"];
         //        NSURL *localURL=[[NSURL alloc]initFileURLWithPath:htmlPath];
         
-        NSURL * url = [NSURL URLWithString:@"http://192.168.1.27:8080/pc/bank/testWebView.do"];
+        NSURL * url = [NSURL URLWithString:@"http://192.168.1.27:8080/pc/order/toOrderSuccess?type=1&orderId=2016032510004862#"];
         //        NSURLRequest * req = [NSURLRequest requestWithURL:url];
         [self.webview loadRequest:[NSURLRequest requestWithURL:url]];
         [self addSubview:self.webview];
         
         JSContext *context = [self.webview valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-        context[@"jakilllog"] = ^() {
+        context[@"iosCallback"] = ^() {
             
             NSLog(@"+++++++Begin Log+++++++");
             NSArray *args = [JSContext currentArguments];
