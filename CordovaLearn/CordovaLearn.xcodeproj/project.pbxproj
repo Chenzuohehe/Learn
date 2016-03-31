@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400C0E41CACD51100DEF862 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0400C0E31CACD51100DEF862 /* config.xml */; };
+		0400C0E91CACD84200DEF862 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0400C0CD1CACD2CD00DEF862 /* libCordova.a */; };
+		0400C0EB1CACD84D00DEF862 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0400C0EA1CACD84D00DEF862 /* MobileCoreServices.framework */; };
+		0400C0ED1CACD85600DEF862 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0400C0EC1CACD85600DEF862 /* AssetsLibrary.framework */; };
+		0400C11C1CACF15100DEF862 /* GetAccountPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400C11B1CACF15100DEF862 /* GetAccountPlugin.m */; };
+		0400C1231CACF28D00DEF862 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 0400C1221CACF28D00DEF862 /* www */; };
 		043322CE1CABC7F600E2A1CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043322CD1CABC7F600E2A1CA /* main.m */; };
 		043322D11CABC7F600E2A1CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043322D01CABC7F600E2A1CA /* AppDelegate.m */; };
 		043322D41CABC7F600E2A1CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043322D31CABC7F600E2A1CA /* ViewController.m */; };
@@ -18,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0400C0CC1CACD2CD00DEF862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0400C0C81CACD2CD00DEF862 /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+		0400C0E71CACD83100DEF862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0400C0C81CACD2CD00DEF862 /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
 		043322E31CABC7F600E2A1CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 043322C11CABC7F600E2A1CA /* Project object */;
@@ -35,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0400C0C81CACD2CD00DEF862 /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		0400C0E31CACD51100DEF862 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		0400C0EA1CACD84D00DEF862 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0400C0EC1CACD85600DEF862 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0400C11A1CACF15100DEF862 /* GetAccountPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAccountPlugin.h; sourceTree = "<group>"; };
+		0400C11B1CACF15100DEF862 /* GetAccountPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAccountPlugin.m; sourceTree = "<group>"; };
+		0400C1221CACF28D00DEF862 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		043322C91CABC7F600E2A1CA /* CordovaLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CordovaLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043322CD1CABC7F600E2A1CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		043322CF1CABC7F600E2A1CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0400C0ED1CACD85600DEF862 /* AssetsLibrary.framework in Frameworks */,
+				0400C0EB1CACD84D00DEF862 /* MobileCoreServices.framework in Frameworks */,
+				0400C0E91CACD84200DEF862 /* libCordova.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0400C0C91CACD2CD00DEF862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0400C0CD1CACD2CD00DEF862 /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		043322C01CABC7F600E2A1CA = {
 			isa = PBXGroup;
 			children = (
+				0400C1221CACF28D00DEF862 /* www */,
+				0400C0EC1CACD85600DEF862 /* AssetsLibrary.framework */,
+				0400C0EA1CACD84D00DEF862 /* MobileCoreServices.framework */,
+				0400C0E31CACD51100DEF862 /* config.xml */,
+				0400C0C81CACD2CD00DEF862 /* CordovaLib.xcodeproj */,
 				043322CB1CABC7F600E2A1CA /* CordovaLearn */,
 				043322E51CABC7F600E2A1CA /* CordovaLearnTests */,
 				043322F01CABC7F600E2A1CA /* CordovaLearnUITests */,
@@ -105,6 +148,8 @@
 				043322D01CABC7F600E2A1CA /* AppDelegate.m */,
 				043322D21CABC7F600E2A1CA /* ViewController.h */,
 				043322D31CABC7F600E2A1CA /* ViewController.m */,
+				0400C11A1CACF15100DEF862 /* GetAccountPlugin.h */,
+				0400C11B1CACF15100DEF862 /* GetAccountPlugin.m */,
 				043322D51CABC7F600E2A1CA /* Main.storyboard */,
 				043322D81CABC7F600E2A1CA /* Assets.xcassets */,
 				043322DA1CABC7F600E2A1CA /* LaunchScreen.storyboard */,
@@ -150,10 +195,12 @@
 				043322C51CABC7F600E2A1CA /* Sources */,
 				043322C61CABC7F600E2A1CA /* Frameworks */,
 				043322C71CABC7F600E2A1CA /* Resources */,
+				0400C0E51CACD58F00DEF862 /* copy www directory */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0400C0E81CACD83100DEF862 /* PBXTargetDependency */,
 			);
 			name = CordovaLearn;
 			productName = CordovaLearn;
@@ -229,6 +276,12 @@
 			mainGroup = 043322C01CABC7F600E2A1CA;
 			productRefGroup = 043322CA1CABC7F600E2A1CA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0400C0C91CACD2CD00DEF862 /* Products */;
+					ProjectRef = 0400C0C81CACD2CD00DEF862 /* CordovaLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				043322C81CABC7F600E2A1CA /* CordovaLearn */,
@@ -238,13 +291,25 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0400C0CD1CACD2CD00DEF862 /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 0400C0CC1CACD2CD00DEF862 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		043322C71CABC7F600E2A1CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				043322DC1CABC7F600E2A1CA /* LaunchScreen.storyboard in Resources */,
+				0400C0E41CACD51100DEF862 /* config.xml in Resources */,
 				043322D91CABC7F600E2A1CA /* Assets.xcassets in Resources */,
+				0400C1231CACF28D00DEF862 /* www in Resources */,
 				043322D71CABC7F600E2A1CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,11 +330,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0400C0E51CACD58F00DEF862 /* copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "Type a script or drag a script file from your workspace to insert its path";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		043322C51CABC7F600E2A1CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0400C11C1CACF15100DEF862 /* GetAccountPlugin.m in Sources */,
 				043322D41CABC7F600E2A1CA /* ViewController.m in Sources */,
 				043322D11CABC7F600E2A1CA /* AppDelegate.m in Sources */,
 				043322CE1CABC7F600E2A1CA /* main.m in Sources */,
@@ -295,6 +378,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0400C0E81CACD83100DEF862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 0400C0E71CACD83100DEF862 /* PBXContainerItemProxy */;
+		};
 		043322E41CABC7F600E2A1CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 043322C81CABC7F600E2A1CA /* CordovaLearn */;
@@ -417,6 +505,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CordovaLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = chenzuo.CordovaLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -428,6 +520,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CordovaLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = chenzuo.CordovaLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,6 +594,7 @@
 				043322F81CABC7F600E2A1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043322F91CABC7F600E2A1CA /* Build configuration list for PBXNativeTarget "CordovaLearnTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +603,7 @@
 				043322FB1CABC7F600E2A1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043322FC1CABC7F600E2A1CA /* Build configuration list for PBXNativeTarget "CordovaLearnUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +612,7 @@
 				043322FE1CABC7F600E2A1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

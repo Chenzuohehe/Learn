@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+.account{
+	background-color: #f5f5f5;
+}
+
+.account .button{
+	width: 96%;
+	margin-left: 2%;
+	height: 26px;
+	min-height: 26px;
+	line-height: 26px;
+	margin-top: 10px;
+	background-color: #fff;
+	margin-bottom: 10px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: left;
+    color: #999999;
+    font-size: 0.75em;
+    border: 1px solid #e6e6e6;
+}
+
+.account .ion-chevron-right:before {
+	content: '';
+	background: url('../img/search.png') 0 0 no-repeat;
+	width: 17px;
+	height: 18px;
+	margin-top: 3px;
+}
+
+.account_time, .account_other{
+	width: 33.33%;
+	word-break:break-all; /*支持IE，chrome，FF不支持*/
+　　 word-wrap:break-word;/*支持IE，chrome，FF*/
+    white-space: normal;
+	float: left;
+	text-align: center;
+	font-size: 0.6em;
+	color: #434343;
+}
+
+.account_other{
+	line-height: 3;
+}
+
+.account_time{
+	line-height: 1.3;
+	margin-top: 7px;
+	color: #999999;
+}
+
+.account .item{
+	padding: 12px 0 12px 0;
+	border-left: 0;
+	border-color: #e6e6e6;
+}
+
+.account .item:first-child{
+	border-top:0;
+}
+
+
+.account .list{
+	background-color: #fff;
+	padding-left: 12px;
+}
+
+.account .item-divider{
+	margin-left: -12px;
+	padding: 0;
+	background-color: #e6e6e6;
+	min-height: 18px;
+}
+
+.account .item-divider .account_time, 
+.account .item-divider .account_other{
+	line-height: 18px;
+}
+

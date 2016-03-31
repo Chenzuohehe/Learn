@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <Cordova/CDVViewController.h>
 @interface ViewController ()
 
 @end
@@ -17,6 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CDVViewController * viewController = [CDVViewController new];
+    viewController.startPage = @"AccountList.html";
+    viewController.wwwFolderName = @"www";
+    [viewController.view setFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height-64)];
+    
+    
+    [self.view addSubview:viewController.view];
+    [self addChildViewController:viewController];
+    
 }
 
 - (void)didReceiveMemoryWarning {

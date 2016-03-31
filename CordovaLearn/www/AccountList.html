@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title>账务中心</title>
+
+	<link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/account.css" rel="stylesheet">
+
+	<!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+  
+
+</head>
+<body ng-app="accountApp" class="account" ng-controller="accountCtrl">
+
+	
+
+	
+	<ion-content>
+		<!-- 搜索按钮 -->
+		<button class="button icon-right ion-chevron-right" id="date" ng-click="chooseDate()">请选择您要查询的月份</button>
+		
+		<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+		<!-- 列表 -->
+		<ion-list>
+			<div class="item item-divider">
+	            <div class="account_other">时间</div>
+				<div class="account_other">收入+/支出-</div>
+				<div class="account_other">备注</div>
+	        </div>
+			<ion-item ng-repeat="item in list" ng-click="clickForItem($index)">
+
+				<div class="account_time">
+					{{item.time | limitTo:10}} <br/>
+					{{item.time | limitTo: -8}} 
+				</div>
+				<div class="account_other">{{item.detail}}</div>
+				<div class="account_other">{{item.notice}}</div>
+			</ion-item>
+		</ion-list>
+		
+		<!-- 上拉加载 -->
+		<ion-infinite-scroll ng-if="hasmore" on-infinite="loadMore()" distance="1%" icon="ion-loading-c"></ion-infinite-scroll>
+		
+	</ion-content>
+
+	
+	
+	<!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/account.js"></script>
+</body>
+</html>
