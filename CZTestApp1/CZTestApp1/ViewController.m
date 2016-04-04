@@ -32,6 +32,15 @@
     }
     
 }
+- (IBAction)openZhaoxie:(id)sender {
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"zhaoxie:"]]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"zhaoxie:我来自cz1"]];
+        
+    }else{
+        NSLog(@"我没能打开");
+    }
+    
+}
 
 
 - (IBAction)openEmail:(id)sender {

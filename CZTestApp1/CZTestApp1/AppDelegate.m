@@ -30,11 +30,11 @@
 
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
-    NSString *receText = [[url host]stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//    NSString *receText = [[url host]stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
 //    [url host]
   
-    
+    NSString *receText = [[url host] stringByRemovingPercentEncoding];
     
     NSLog(@"%@    %@",receText, url.absoluteString);
     

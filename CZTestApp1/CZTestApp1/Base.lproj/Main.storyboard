@@ -39,7 +39,10 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HM1-WB-BxB">
                                 <rect key="frame" x="103" y="249" width="128" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="前往找鞋网"/>
+                                <connections>
+                                    <action selector="openZhaoxie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8vq-q2-2CZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je3-4H-ZfV">
                                 <rect key="frame" x="103" y="303" width="128" height="30"/>
