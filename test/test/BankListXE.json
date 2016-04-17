@@ -1,0 +1,181 @@
+[
+  {
+    "djk" : "ICBC-C",
+    "djkxe" : 10000,
+    "jjk" : "ICBC-D",
+    "jjkxe" : 500000,
+    "name" : "工商银行",
+    "src" : "/static/pcView/images/bankImg/2.png"
+  },
+  {
+    "djk" : "CEB-C",
+    "djkxe" : 5000,
+    "jjk" : "CEB-D",
+    "jjkxe" : 150000,
+    "name" : "光大银行",
+    "src" : "/static/pcView/images/bankImg/8.png"
+  },
+  {
+    "djk" : "HXB-C",
+    "djkxe" : 5000,
+    "jjk" : "HXB-D",
+    "jjkxe" : 150000,
+    "name" : "华夏银行",
+    "src" : "/static/pcView/images/bankImg/10.png"
+  },
+  {
+    "djk" : "CCB-C",
+    "djkxe" : 10000,
+    "jjk" : "CCB-D",
+    "jjkxe" : 5000000,
+    "name" : "建设银行",
+    "src" : "/static/pcView/images/bankImg/3.png"
+  },
+  {
+    "jjk" : "BOCOM-D",
+    "jjkxe" : 50000,
+    "name" : "交通银行",
+    "src" : "/static/pcView/images/bankImg/6.png"
+  },
+  {
+    "djk" : "CMBC-C",
+    "djkxe" : 1000,
+    "jjk" : "CMBC-D",
+    "jjkxe" : 1000000,
+    "name" : "民生银行",
+    "src" : "/static/pcView/images/bankImg/26.png"
+  },
+  {
+    "djk" : "ABC-C",
+    "djkxe" : 5000,
+    "jjk" : "ABC-D",
+    "jjkxe" : 150000,
+    "name" : "农业银行",
+    "src" : "/static/pcView/images/bankImg/1.png"
+  },
+  {
+    "djk" : "PAB-C",
+    "djkxe" : 50000,
+    "jjk" : "PAB-D",
+    "name" : "平安银行",
+    "src" : "/static/pcView/images/bankImg/25.png"
+  },
+  {
+    "djk" : "SPDB-C",
+    "djkxe" : 20000,
+    "jjk" : "SPDB-D",
+    "jjkxe" : 1000000,
+    "name" : "浦发银行",
+    "src" : "/static/pcView/images/bankImg/7.png"
+  },
+  {
+    "djk" : "BOS-C",
+    "djkxe" : 20000,
+    "jjk" : "BOS-D",
+    "jjkxe" : 150000,
+    "name" : "上海银行",
+    "src" : "/static/pcView/images/bankImg/22.png"
+  },
+  {
+    "djk" : "CIB-C",
+    "djkxe" : 5000,
+    "jjk" : "CIB-D",
+    "jjkxe" : 150000,
+    "name" : "兴业银行",
+    "src" : "/static/pcView/images/bankImg/12.png"
+  },
+  {
+    "djk" : "BOC-C",
+    "djkxe" : 10000,
+    "jjk" : "BOC-D",
+    "jjkxe" : 150000,
+    "name" : "中国银行",
+    "src" : "/static/pcView/images/bankImg/5.png"
+  },
+  {
+    "jjk" : "PSBC-D",
+    "jjkxe" : 150000,
+    "name" : "中国邮政储蓄银行",
+    "src" : "/static/pcView/images/bankImg/4.png"
+  },
+  {
+    "djk" : "CNCB-C",
+    "djkxe" : 5000,
+    "jjk" : "CNCB-D",
+    "jjkxe" : 800000,
+    "name" : "中信银行",
+    "src" : "/static/pcView/images/bankImg/9.png"
+  },
+  {
+    "jjk" : "GDRCU-D",
+    "jjkxe" : 5000,
+    "name" : "广东农村信用社",
+    "src" : "/static/pcView/images/bankImg/23.png"
+  },
+  {
+    "djk" : "HZCB-C",
+    "djkxe" : 5000,
+    "jjk" : "HZCB-D",
+    "jjkxe" : 5000,
+    "name" : "杭州银行",
+    "src" : "/static/pcView/images/bankImg/14.png"
+  },
+  {
+    "djk" : "JSBK-C",
+    "djkxe" : 5000,
+    "jjk" : "JSBK-D",
+    "jjkxe" : 5000,
+    "name" : "江苏银行",
+    "src" : "/static/pcView/images/bankImg/17.png"
+  },
+  {
+    "jjk" : "SZRCU-D",
+    "jjkxe" : 5000,
+    "name" : "深圳农村商业银行",
+    "src" : "/static/pcView/images/bankImg/24.png"
+  },
+  {
+    "djk" : "CBHB-C",
+    "djkxe" : 10000,
+    "jjk" : "CBHB-D",
+    "jjkxe" : 10000,
+    "name" : "渤海银行",
+    "src" : "/static/pcView/images/bankImg/16.png"
+  },
+  {
+    "djk" : "BCCB-C",
+    "djkxe" : 5000,
+    "name" : "北京银行",
+    "src" : "/static/pcView/images/bankImg/15.png"
+  },
+  {
+    "djk" : "GDB-C",
+    "djkxe" : 5000,
+    "name" : "广发银行",
+    "src" : "/static/pcView/images/bankImg/11.png"
+  },
+  {
+    "djk" : "HSCB-C",
+    "djkxe" : 5000,
+    "name" : "徽商银行",
+    "src" : "/static/pcView/images/bankImg/19.png"
+  },
+  {
+    "djk" : "SRCB-C",
+    "djkxe" : 5000,
+    "name" : "上海农商行",
+    "src" : "/static/pcView/images/bankImg/22.png"
+  },
+  {
+    "djk" : "BRCB-C",
+    "djkxe" : 5000,
+    "name" : "北京农商行",
+    "src" : "/static/pcView/images/bankImg/21.png"
+  },
+  {
+    "djk" : "CQCBANK-C",
+    "djkxe" : 5000,
+    "name" : "重庆银行",
+    "src" : "/static/pcView/images/bankImg/20.png"
+  }
+]
