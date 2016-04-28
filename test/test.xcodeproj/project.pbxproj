@@ -16,6 +16,21 @@
 		04BB00BF1CAF74FA00D7CCD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BB00BD1CAF74FA00D7CCD1 /* LaunchScreen.storyboard */; };
 		04BB00CA1CAF74FA00D7CCD1 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB00C91CAF74FA00D7CCD1 /* testTests.m */; };
 		04BB00D51CAF74FA00D7CCD1 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB00D41CAF74FA00D7CCD1 /* testUITests.m */; };
+		04EBF2401CCA0B7800560D04 /* TTFadeSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBF23C1CCA0B7800560D04 /* TTFadeSwitch.m */; };
+		04EBF2411CCA0B7800560D04 /* TTSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBF23E1CCA0B7800560D04 /* TTSwitch.m */; };
+		04EBF24C1CCA143E00560D04 /* JTMaterialSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBF24B1CCA143E00560D04 /* JTMaterialSwitch.m */; };
+		04EBF2581CCA197900560D04 /* square-switch-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF24E1CCA197900560D04 /* square-switch-mask.png */; };
+		04EBF2591CCA197900560D04 /* square-switch-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF24F1CCA197900560D04 /* square-switch-mask@2x.png */; };
+		04EBF25A1CCA197900560D04 /* square-switch-overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF2501CCA197900560D04 /* square-switch-overlay.png */; };
+		04EBF25B1CCA197900560D04 /* square-switch-overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF2511CCA197900560D04 /* square-switch-overlay@2x.png */; };
+		04EBF25C1CCA197900560D04 /* square-switch-thumb-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF2521CCA197900560D04 /* square-switch-thumb-highlight.png */; };
+		04EBF25D1CCA197900560D04 /* square-switch-thumb-highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF2531CCA197900560D04 /* square-switch-thumb-highlight@2x.png */; };
+		04EBF25E1CCA197900560D04 /* square-switch-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF2541CCA197900560D04 /* square-switch-thumb.png */; };
+		04EBF25F1CCA197900560D04 /* square-switch-thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF2551CCA197900560D04 /* square-switch-thumb@2x.png */; };
+		04EBF2601CCA197900560D04 /* square-switch-track.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF2561CCA197900560D04 /* square-switch-track.png */; };
+		04EBF2611CCA197900560D04 /* square-switch-track@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBF2571CCA197900560D04 /* square-switch-track@2x.png */; };
+		04F5F7FB1CC37B300081E754 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5F7F91CC37B300081E754 /* FirstViewController.m */; };
+		04F5F7FC1CC37B300081E754 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F5F7FA1CC37B300081E754 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,26 @@
 		04BB00D01CAF74FA00D7CCD1 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BB00D41CAF74FA00D7CCD1 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		04BB00D61CAF74FA00D7CCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EBF23B1CCA0B7800560D04 /* TTFadeSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFadeSwitch.h; sourceTree = "<group>"; };
+		04EBF23C1CCA0B7800560D04 /* TTFadeSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFadeSwitch.m; sourceTree = "<group>"; };
+		04EBF23D1CCA0B7800560D04 /* TTSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSwitch.h; sourceTree = "<group>"; };
+		04EBF23E1CCA0B7800560D04 /* TTSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSwitch.m; sourceTree = "<group>"; };
+		04EBF23F1CCA0B7800560D04 /* TTSwitchSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSwitchSubclass.h; sourceTree = "<group>"; };
+		04EBF24A1CCA143E00560D04 /* JTMaterialSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMaterialSwitch.h; sourceTree = "<group>"; };
+		04EBF24B1CCA143E00560D04 /* JTMaterialSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTMaterialSwitch.m; sourceTree = "<group>"; };
+		04EBF24E1CCA197900560D04 /* square-switch-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-mask.png"; sourceTree = "<group>"; };
+		04EBF24F1CCA197900560D04 /* square-switch-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-mask@2x.png"; sourceTree = "<group>"; };
+		04EBF2501CCA197900560D04 /* square-switch-overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-overlay.png"; sourceTree = "<group>"; };
+		04EBF2511CCA197900560D04 /* square-switch-overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-overlay@2x.png"; sourceTree = "<group>"; };
+		04EBF2521CCA197900560D04 /* square-switch-thumb-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-thumb-highlight.png"; sourceTree = "<group>"; };
+		04EBF2531CCA197900560D04 /* square-switch-thumb-highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-thumb-highlight@2x.png"; sourceTree = "<group>"; };
+		04EBF2541CCA197900560D04 /* square-switch-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-thumb.png"; sourceTree = "<group>"; };
+		04EBF2551CCA197900560D04 /* square-switch-thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-thumb@2x.png"; sourceTree = "<group>"; };
+		04EBF2561CCA197900560D04 /* square-switch-track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-track.png"; sourceTree = "<group>"; };
+		04EBF2571CCA197900560D04 /* square-switch-track@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-switch-track@2x.png"; sourceTree = "<group>"; };
+		04F5F7F81CC37B300081E754 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04F5F7F91CC37B300081E754 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04F5F7FA1CC37B300081E754 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +138,17 @@
 		04BB00AE1CAF74FA00D7CCD1 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				04EBF24A1CCA143E00560D04 /* JTMaterialSwitch.h */,
+				04EBF24B1CCA143E00560D04 /* JTMaterialSwitch.m */,
+				04EBF24D1CCA197900560D04 /* Square */,
+				04EBF23A1CCA0B7800560D04 /* TTSwitch */,
 				04BB00B21CAF74FA00D7CCD1 /* AppDelegate.h */,
 				04BB00B31CAF74FA00D7CCD1 /* AppDelegate.m */,
 				04BB00B51CAF74FA00D7CCD1 /* ViewController.h */,
 				04BB00B61CAF74FA00D7CCD1 /* ViewController.m */,
+				04F5F7F81CC37B300081E754 /* FirstViewController.h */,
+				04F5F7F91CC37B300081E754 /* FirstViewController.m */,
+				04F5F7FA1CC37B300081E754 /* FirstViewController.xib */,
 				043239A41CBB6E8A0001F7FD /* BankListXE.json */,
 				04BB00B81CAF74FA00D7CCD1 /* Main.storyboard */,
 				04BB00BB1CAF74FA00D7CCD1 /* Assets.xcassets */,
@@ -141,6 +183,35 @@
 				04BB00D61CAF74FA00D7CCD1 /* Info.plist */,
 			);
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		04EBF23A1CCA0B7800560D04 /* TTSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				04EBF23B1CCA0B7800560D04 /* TTFadeSwitch.h */,
+				04EBF23C1CCA0B7800560D04 /* TTFadeSwitch.m */,
+				04EBF23D1CCA0B7800560D04 /* TTSwitch.h */,
+				04EBF23E1CCA0B7800560D04 /* TTSwitch.m */,
+				04EBF23F1CCA0B7800560D04 /* TTSwitchSubclass.h */,
+			);
+			path = TTSwitch;
+			sourceTree = "<group>";
+		};
+		04EBF24D1CCA197900560D04 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				04EBF24E1CCA197900560D04 /* square-switch-mask.png */,
+				04EBF24F1CCA197900560D04 /* square-switch-mask@2x.png */,
+				04EBF2501CCA197900560D04 /* square-switch-overlay.png */,
+				04EBF2511CCA197900560D04 /* square-switch-overlay@2x.png */,
+				04EBF2521CCA197900560D04 /* square-switch-thumb-highlight.png */,
+				04EBF2531CCA197900560D04 /* square-switch-thumb-highlight@2x.png */,
+				04EBF2541CCA197900560D04 /* square-switch-thumb.png */,
+				04EBF2551CCA197900560D04 /* square-switch-thumb@2x.png */,
+				04EBF2561CCA197900560D04 /* square-switch-track.png */,
+				04EBF2571CCA197900560D04 /* square-switch-track@2x.png */,
+			);
+			path = Square;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +317,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EBF2581CCA197900560D04 /* square-switch-mask.png in Resources */,
 				043239A51CBB6E8A0001F7FD /* BankListXE.json in Resources */,
+				04EBF2591CCA197900560D04 /* square-switch-mask@2x.png in Resources */,
+				04EBF25E1CCA197900560D04 /* square-switch-thumb.png in Resources */,
+				04EBF25A1CCA197900560D04 /* square-switch-overlay.png in Resources */,
+				04EBF25C1CCA197900560D04 /* square-switch-thumb-highlight.png in Resources */,
+				04EBF2601CCA197900560D04 /* square-switch-track.png in Resources */,
+				04F5F7FC1CC37B300081E754 /* FirstViewController.xib in Resources */,
+				04EBF25B1CCA197900560D04 /* square-switch-overlay@2x.png in Resources */,
+				04EBF25D1CCA197900560D04 /* square-switch-thumb-highlight@2x.png in Resources */,
+				04EBF25F1CCA197900560D04 /* square-switch-thumb@2x.png in Resources */,
+				04EBF2611CCA197900560D04 /* square-switch-track@2x.png in Resources */,
 				04BB00BF1CAF74FA00D7CCD1 /* LaunchScreen.storyboard in Resources */,
 				04BB00BC1CAF74FA00D7CCD1 /* Assets.xcassets in Resources */,
 				04BB00BA1CAF74FA00D7CCD1 /* Main.storyboard in Resources */,
@@ -275,8 +357,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BB00B71CAF74FA00D7CCD1 /* ViewController.m in Sources */,
+				04EBF2401CCA0B7800560D04 /* TTFadeSwitch.m in Sources */,
 				04BB00B41CAF74FA00D7CCD1 /* AppDelegate.m in Sources */,
 				04BB00B11CAF74FA00D7CCD1 /* main.m in Sources */,
+				04EBF24C1CCA143E00560D04 /* JTMaterialSwitch.m in Sources */,
+				04F5F7FB1CC37B300081E754 /* FirstViewController.m in Sources */,
+				04EBF2411CCA0B7800560D04 /* TTSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
