@@ -68,6 +68,9 @@
     NSString * utf8mail = [result stringByRemovingPercentEncoding];//iOS 9.0之后推荐的转换方法https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/index.html#//apple_ref/occ/instm/NSString/stringByAddingPercentEncodingWithAllowedCharacters:
     NSLog(@"%@",utf8mail);
     
+    UIButton * button = [[UIButton alloc]init];
+    
+    
 }
 
 
