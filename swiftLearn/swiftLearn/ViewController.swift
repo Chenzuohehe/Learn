@@ -105,6 +105,25 @@ class ViewController: UIViewController {
         let statistics = calculateStatustics([5,3,100,3,9])
         print(statistics.sum)
         print(statistics.1)
+        
+        
+        print(sumOf(42,58,69))
+        print(returnFifteen())
+        
+        var increment = makeIncrementer()
+        print(increment(7))
+        
+        var numbers = [20, 19, 7, 12]
+        
+        if hasAnyMatches(numbers, condition: lessThanTen) {
+            print(lessThanTen)
+            print(numbers)
+        }
+        
+        numbers.map { (number: Int) -> Int in
+            let result = 3 * number
+            return result
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -131,6 +150,42 @@ class ViewController: UIViewController {
         return (min, max ,sum)
     }
     
+    func sumOf(numbers: Int...) -> Int {
+        var sum = 0
+        for number in numbers {
+            sum += number
+        }
+        return sum
+    }
+    
+    func returnFifteen() -> Int {
+        var y = 10
+        func add() {
+            y += 5
+        }
+        add()
+        return y
+    }
+    
+    func makeIncrementer() -> (Int -> Int) {
+        func addOne(number:Int) -> Int {
+            return 1 + number
+        }
+        return addOne
+    }
+    
+    func hasAnyMatches(list: [Int], condition: Int -> Bool) -> Bool {
+        for item in list {
+            if condition(item) {
+                return true
+            }
+        }
+        return false
+    }
+    
+    func lessThanTen(number: Int) -> Bool {
+        return number < 10
+    }
     
 }
 
