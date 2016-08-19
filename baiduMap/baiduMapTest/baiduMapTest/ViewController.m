@@ -31,19 +31,19 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
-    BMKPointAnnotation* annotation = [[BMKPointAnnotation alloc]init];
-//    annotation
-    CLLocationCoordinate2D coor;
-    coor.latitude = 40.915;
-    coor.longitude = 115.404;
-    annotation.coordinate = coor;
-    annotation.title = @"这里是北京";
-    
-    self.mapView.centerCoordinate = coor;
-    self.mapView.zoomLevel = 13;
-    
-    
-    [self.mapView addAnnotation:annotation];
+//    BMKPointAnnotation* annotation = [[BMKPointAnnotation alloc]init];
+////    annotation
+//    CLLocationCoordinate2D coor;
+//    coor.latitude = 40.915;
+//    coor.longitude = 115.404;
+//    annotation.coordinate = coor;
+//    annotation.title = @"这里是北京";
+//    
+//    self.mapView.centerCoordinate = coor;
+//    self.mapView.zoomLevel = 13;
+//    
+//    
+//    [self.mapView addAnnotation:annotation];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -123,7 +123,7 @@
     _geocodesearch.delegate = self;
     BMKGeoCodeSearchOption *geoCodeSearchOption = [[BMKGeoCodeSearchOption alloc]init];
 //    geoCodeSearchOption.city= @"北京市";
-    geoCodeSearchOption.address = @"随州";
+    geoCodeSearchOption.address = @"岳阳";
     BOOL flag = [_geocodesearch geoCode:geoCodeSearchOption];
     //    [geoCodeSearchOption release];
     if(flag)
@@ -137,44 +137,46 @@
     
 }
 
-
+//通过协议，显示大头针的时候替换大头针
 - (BMKAnnotationView *)mapView:(BMKMapView *)mapView viewForAnnotation:(id <BMKAnnotation>)annotation
 {
-    BMKPinAnnotationView *newAnationView = [[BMKPinAnnotationView alloc]initWithAnnotation:annotation reuseIdentifier:@"anonationID"];
+    BMKPinAnnotationView *newAnationView = [[BMKPinAnnotationView alloc]initWithAnnotation:annotation reuseIdentifier:@"anonationID"];//可以复用类似tableview
     //直接显示,不用点击弹出
     [newAnationView setSelected:YES];
     ((BMKPinAnnotationView *)newAnationView).image = [UIImage imageNamed:@"annotation"];
     ((BMKPinAnnotationView *)newAnationView).animatesDrop = YES;
-    UIView *popView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 185, 56)];
-    //设置弹出气泡背景图片
-    UIImageView *bgImageV =[[UIImageView alloc]init];
-    bgImageV.image = [[UIImage imageNamed:@""]stretchableImageWithLeftCapWidth:28 topCapHeight:16];
-    bgImageV.frame = CGRectMake(0, 0, 185, 52);
-    [popView addSubview:bgImageV];
-    UIImageView *connerImageV = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"annotation"]];
-    connerImageV.frame = CGRectMake(88, 52, 12, 4);
-    [popView addSubview:connerImageV];
-    UIImageView *navImageV = [[UIImageView alloc]initWithFrame:CGRectMake(120, 0, 65, 52)];
-    navImageV.image = [UIImage imageNamed:@"annotation"];
-    navImageV.userInteractionEnabled = YES;
-    [bgImageV addSubview:navImageV];
-    UILabel *titleLabel = [[UILabel alloc]init];
-    titleLabel.text = @"广东省中山市";
-    titleLabel.textAlignment = NSTextAlignmentLeft;
-    titleLabel.textColor = [UIColor whiteColor];
-    titleLabel.frame = CGRectMake(0, 0, 120, 30);
-    [bgImageV addSubview:titleLabel];
-    UILabel *subLabel = [[UILabel alloc]init];
-    subLabel.text = @"博爱五路今科科技公司";
-    subLabel.textAlignment = NSTextAlignmentLeft;
-    subLabel.textColor = [UIColor whiteColor];
-    subLabel.font = [UIFont systemFontOfSize:12];
-    subLabel.frame = CGRectMake(0, 30, 120, 22);
-    [bgImageV addSubview:subLabel];
-    BMKActionPaopaoView *pView = [[BMKActionPaopaoView alloc]initWithCustomView:popView];
-    pView.frame = CGRectMake(0, 0, 185, 56);
-    ((BMKPinAnnotationView*)newAnationView).paopaoView = nil;
-    ((BMKPinAnnotationView*)newAnationView).paopaoView = pView;
+    newAnationView.frame = CGRectMake(0, 0, 40, 40);
+    
+//    UIView *popView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 185, 56)];
+//    //设置弹出气泡背景图片
+//    UIImageView *bgImageV =[[UIImageView alloc]init];
+//    bgImageV.image = [[UIImage imageNamed:@""]stretchableImageWithLeftCapWidth:28 topCapHeight:16];
+//    bgImageV.frame = CGRectMake(0, 0, 185, 52);
+//    [popView addSubview:bgImageV];
+//    UIImageView *connerImageV = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"annotation"]];
+//    connerImageV.frame = CGRectMake(88, 52, 12, 4);
+//    [popView addSubview:connerImageV];
+//    UIImageView *navImageV = [[UIImageView alloc]initWithFrame:CGRectMake(120, 0, 65, 52)];
+//    navImageV.image = [UIImage imageNamed:@"annotation"];
+//    navImageV.userInteractionEnabled = YES;
+//    [bgImageV addSubview:navImageV];
+//    UILabel *titleLabel = [[UILabel alloc]init];
+//    titleLabel.text = @"广东省中山市";
+//    titleLabel.textAlignment = NSTextAlignmentLeft;
+//    titleLabel.textColor = [UIColor whiteColor];
+//    titleLabel.frame = CGRectMake(0, 0, 120, 30);
+//    [bgImageV addSubview:titleLabel];
+//    UILabel *subLabel = [[UILabel alloc]init];
+//    subLabel.text = @"博爱五路今科科技公司";
+//    subLabel.textAlignment = NSTextAlignmentLeft;
+//    subLabel.textColor = [UIColor whiteColor];
+//    subLabel.font = [UIFont systemFontOfSize:12];
+//    subLabel.frame = CGRectMake(0, 30, 120, 22);
+//    [bgImageV addSubview:subLabel];
+//    BMKActionPaopaoView *pView = [[BMKActionPaopaoView alloc]initWithCustomView:popView];
+//    pView.frame = CGRectMake(0, 0, 185, 56);
+//    ((BMKPinAnnotationView*)newAnationView).paopaoView = nil;
+//    ((BMKPinAnnotationView*)newAnationView).paopaoView = pView;
     return newAnationView;
 }
 

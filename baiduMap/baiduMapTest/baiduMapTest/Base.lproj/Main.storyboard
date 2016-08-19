@@ -28,7 +28,7 @@
                                     <constraint firstAttribute="width" constant="46" id="J5Z-7b-Qhg"/>
                                     <constraint firstAttribute="height" constant="30" id="KoT-Cq-FnJ"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="去岳阳"/>
                                 <connections>
                                     <action selector="searchBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CMO-Vm-fTz"/>
                                 </connections>
