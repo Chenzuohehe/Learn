@@ -18,7 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gbJ-WQ-ZVN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hh3-zp-vbt">
+                                <rect key="frame" x="277" y="334" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="eyH-5W-cbh"/>
+                                    <constraint firstAttribute="height" constant="30" id="sxl-I1-9vm"/>
+                                </constraints>
+                                <state key="normal" title="first"/>
+                                <connections>
+                                    <action selector="firstNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oqh-Jv-8GU"/>
+                                </connections>
+                            </button>
+                            <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gbJ-WQ-ZVN">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MGZ-Og-tgn">
                                     <size key="itemSize" width="50" height="50"/>
@@ -31,9 +42,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="hh3-zp-vbt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="314" id="0tU-6n-KuP"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gbJ-WQ-ZVN" secondAttribute="bottom" id="82S-zW-Izz"/>
                             <constraint firstItem="gbJ-WQ-ZVN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="9nF-rr-hnV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gbJ-WQ-ZVN" secondAttribute="trailing" constant="-20" id="SIK-v7-zCZ"/>
+                            <constraint firstItem="hh3-zp-vbt" firstAttribute="centerX" secondItem="gbJ-WQ-ZVN" secondAttribute="centerX" id="bFA-ed-23g"/>
                             <constraint firstItem="gbJ-WQ-ZVN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="yrx-iV-efx"/>
                         </constraints>
                     </view>

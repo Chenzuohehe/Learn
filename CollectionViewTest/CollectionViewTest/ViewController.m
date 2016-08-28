@@ -10,6 +10,7 @@
 #import "CustomCollectionViewCell.h"
 #import "SearchOfFlowLayout.h"
 #import "TypeCollectionViewCell.h"
+#import "FirstViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,SearchOfFlowLayoutDelegate>
 //@property (strong, nonatomic) UICollectionView *mainCollectionView;
@@ -127,4 +128,12 @@
 //    
 //    return CGSizeMake([UIScreen mainScreen].bounds.size.width, 100);
 //}
+- (IBAction)firstNext:(id)sender {
+    
+    FirstViewController * nextViewController = [[FirstViewController alloc]initWithNibName:@"FirstViewController" bundle:nil];
+    [self presentViewController:nextViewController animated:YES completion:^{
+        
+    }];
+    
+}
 @end
