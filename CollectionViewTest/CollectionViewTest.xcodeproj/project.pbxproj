@@ -11,6 +11,8 @@
 		4E1BA3D71D6DD0F50006CC92 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1BA3D51D6DD0F50006CC92 /* CustomCollectionViewCell.xib */; };
 		4E2871EA1D731D3100675F0A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2871E81D731D3100675F0A /* FirstViewController.m */; };
 		4E2871EB1D731D3100675F0A /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2871E91D731D3100675F0A /* FirstViewController.xib */; };
+		4E2871F51D73C43200675F0A /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2871F31D73C43200675F0A /* MyCollectionViewCell.m */; };
+		4E2871F61D73C43200675F0A /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2871F41D73C43200675F0A /* MyCollectionViewCell.xib */; };
 		4E2CD97F1D6EC09C00DB5581 /* TypeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CD97D1D6EC09C00DB5581 /* TypeCollectionViewCell.m */; };
 		4E2CD9801D6EC09C00DB5581 /* TypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2CD97E1D6EC09C00DB5581 /* TypeCollectionViewCell.xib */; };
 		4E2E36291D6DCA3600064C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2E36281D6DCA3600064C9E /* main.m */; };
@@ -48,6 +50,9 @@
 		4E2871E71D731D3100675F0A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		4E2871E81D731D3100675F0A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		4E2871E91D731D3100675F0A /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		4E2871F21D73C43200675F0A /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCollectionViewCell.h; path = Assets.xcassets/MyCollectionViewCell.h; sourceTree = "<group>"; };
+		4E2871F31D73C43200675F0A /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCollectionViewCell.m; path = Assets.xcassets/MyCollectionViewCell.m; sourceTree = "<group>"; };
+		4E2871F41D73C43200675F0A /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyCollectionViewCell.xib; path = Assets.xcassets/MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		4E2CD97C1D6EC09C00DB5581 /* TypeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeCollectionViewCell.h; sourceTree = "<group>"; };
 		4E2CD97D1D6EC09C00DB5581 /* TypeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeCollectionViewCell.m; sourceTree = "<group>"; };
 		4E2CD97E1D6EC09C00DB5581 /* TypeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TypeCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -127,6 +132,9 @@
 				4E2871E71D731D3100675F0A /* FirstViewController.h */,
 				4E2871E81D731D3100675F0A /* FirstViewController.m */,
 				4E2871E91D731D3100675F0A /* FirstViewController.xib */,
+				4E2871F21D73C43200675F0A /* MyCollectionViewCell.h */,
+				4E2871F31D73C43200675F0A /* MyCollectionViewCell.m */,
+				4E2871F41D73C43200675F0A /* MyCollectionViewCell.xib */,
 				4E1BA3D31D6DD0F50006CC92 /* CustomCollectionViewCell.h */,
 				4E1BA3D41D6DD0F50006CC92 /* CustomCollectionViewCell.m */,
 				4E1BA3D51D6DD0F50006CC92 /* CustomCollectionViewCell.xib */,
@@ -273,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E2E36371D6DCA3600064C9E /* LaunchScreen.storyboard in Resources */,
+				4E2871F61D73C43200675F0A /* MyCollectionViewCell.xib in Resources */,
 				4E2871EB1D731D3100675F0A /* FirstViewController.xib in Resources */,
 				4E2E36341D6DCA3600064C9E /* Assets.xcassets in Resources */,
 				4E2E36321D6DCA3600064C9E /* Main.storyboard in Resources */,
@@ -308,6 +317,7 @@
 				4E2E362F1D6DCA3600064C9E /* ViewController.m in Sources */,
 				4E2E362C1D6DCA3600064C9E /* AppDelegate.m in Sources */,
 				4E2E36291D6DCA3600064C9E /* main.m in Sources */,
+				4E2871F51D73C43200675F0A /* MyCollectionViewCell.m in Sources */,
 				4E1BA3D61D6DD0F50006CC92 /* CustomCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
