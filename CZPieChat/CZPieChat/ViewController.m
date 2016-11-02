@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CZPieChatView.h"
 #import "PieChatView.h"
+#import "TestView.h"
 
 
 @interface ViewController ()
@@ -38,6 +39,10 @@
     [pieView showPie];
     [self.view addSubview:pieView];
     
+    
+    TestView * testView = [[TestView alloc]initWithFrame:CGRectMake(100, 300, 100, 100)];
+    testView.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:testView];
     
 }
 

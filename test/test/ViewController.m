@@ -27,6 +27,11 @@
 //    //根据文件路径读取数据
 //    NSData *jdata = [[NSData alloc]initWithContentsOfFile:filePath];
     
+    
+    NSNumber * number;
+    
+    
+    
     CGFloat row = ceil(3/4.0);
     NSLog(@"%f",row);
     

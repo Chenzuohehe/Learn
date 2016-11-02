@@ -10,11 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -64,10 +59,10 @@ class ViewController: UIViewController {
         }
         
         
-        var optionalString:String? = "hello"
+        let optionalString:String? = "hello"
         print(optionalString == nil)
         
-        var optionaName:String? = "John Appleseed"
+        let optionaName:String? = "John Appleseed"
         var greeting = "Hello!"
         if let name = optionaName {
             greeting = "Hello, \(name)"
@@ -110,10 +105,10 @@ class ViewController: UIViewController {
         print(sumOf(42,58,69))
         print(returnFifteen())
         
-        var increment = makeIncrementer()
+        let increment = makeIncrementer()
         print(increment(7))
         
-        var numbers = [20, 19, 7, 12]
+        let numbers = [20, 19, 7, 12]
         
         if hasAnyMatches(numbers, condition: lessThanTen) {
             print(lessThanTen)
@@ -131,10 +126,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func greet(name: String, day: String) -> String {
+    func greet(_ name: String, day: String) -> String {
         return "hello, \(name),today is \(day)"
     }
-    func calculateStatustics(scores: [Int]) -> (min:Int,max:Int,sum:Int) {
+    func calculateStatustics(_ scores: [Int]) -> (min:Int,max:Int,sum:Int) {
         var min = scores[0]
         var max = scores[0]
         var sum = 0
@@ -150,7 +145,7 @@ class ViewController: UIViewController {
         return (min, max ,sum)
     }
     
-    func sumOf(numbers: Int...) -> Int {
+    func sumOf(_ numbers: Int...) -> Int {
         var sum = 0
         for number in numbers {
             sum += number
@@ -167,14 +162,14 @@ class ViewController: UIViewController {
         return y
     }
     
-    func makeIncrementer() -> (Int -> Int) {
-        func addOne(number:Int) -> Int {
+    func makeIncrementer() -> ((Int) -> Int) {
+        func addOne(_ number:Int) -> Int {
             return 1 + number
         }
         return addOne
     }
     
-    func hasAnyMatches(list: [Int], condition: Int -> Bool) -> Bool {
+    func hasAnyMatches(_ list: [Int], condition: (Int) -> Bool) -> Bool {
         for item in list {
             if condition(item) {
                 return true
@@ -183,7 +178,7 @@ class ViewController: UIViewController {
         return false
     }
     
-    func lessThanTen(number: Int) -> Bool {
+    func lessThanTen(_ number: Int) -> Bool {
         return number < 10
     }
     

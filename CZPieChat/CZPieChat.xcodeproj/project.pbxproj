@@ -18,6 +18,7 @@
 		4E28724F1D77BC2B00675F0A /* CZPieChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E28724E1D77BC2B00675F0A /* CZPieChatView.m */; };
 		4E2872521D77C17900675F0A /* CALayer+PieChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2872511D77C17900675F0A /* CALayer+PieChat.m */; };
 		4E2872551D77D2C500675F0A /* PieChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2872541D77D2C500675F0A /* PieChatView.m */; };
+		4E2872E11D78542700675F0A /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2872E01D78542700675F0A /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		4E2872511D77C17900675F0A /* CALayer+PieChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PieChat.m"; sourceTree = "<group>"; };
 		4E2872531D77D2C500675F0A /* PieChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChatView.h; sourceTree = "<group>"; };
 		4E2872541D77D2C500675F0A /* PieChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChatView.m; sourceTree = "<group>"; };
+		4E2872DF1D78542700675F0A /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		4E2872E01D78542700675F0A /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				4E28724E1D77BC2B00675F0A /* CZPieChatView.m */,
 				4E2872531D77D2C500675F0A /* PieChatView.h */,
 				4E2872541D77D2C500675F0A /* PieChatView.m */,
+				4E2872DF1D78542700675F0A /* TestView.h */,
+				4E2872E01D78542700675F0A /* TestView.m */,
 				4E2872501D77C17900675F0A /* CALayer+PieChat.h */,
 				4E2872511D77C17900675F0A /* CALayer+PieChat.m */,
 				4E2872231D77BB4D00675F0A /* Assets.xcassets */,
@@ -285,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2872E11D78542700675F0A /* TestView.m in Sources */,
 				4E28721F1D77BB4D00675F0A /* ViewController.m in Sources */,
 				4E28721C1D77BB4D00675F0A /* AppDelegate.m in Sources */,
 				4E28724F1D77BC2B00675F0A /* CZPieChatView.m in Sources */,
@@ -516,6 +522,7 @@
 				4E2872431D77BB4D00675F0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2872441D77BB4D00675F0A /* Build configuration list for PBXNativeTarget "CZPieChatTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				4E2872461D77BB4D00675F0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2872471D77BB4D00675F0A /* Build configuration list for PBXNativeTarget "CZPieChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				4E2872491D77BB4D00675F0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
