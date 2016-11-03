@@ -15,16 +15,7 @@
 		4E882A191DCAD464000A0778 /* neihanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A181DCAD464000A0778 /* neihanTests.m */; };
 		4E882A241DCAD464000A0778 /* neihanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A231DCAD464000A0778 /* neihanUITests.m */; };
 		4E882A951DCAE87E000A0778 /* NHMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A7A1DCAE87E000A0778 /* NHMainTabBarController.m */; };
-		4E882A961DCAE87E000A0778 /* NHAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A811DCAE87E000A0778 /* NHAnimationManager.m */; };
-		4E882A971DCAE87E000A0778 /* NHCommonAPIConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A831DCAE87E000A0778 /* NHCommonAPIConstant.m */; };
-		4E882A981DCAE87E000A0778 /* NHCommonConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A851DCAE87E000A0778 /* NHCommonConstant.m */; };
-		4E882A991DCAE87E000A0778 /* NHDownloadImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A881DCAE87E000A0778 /* NHDownloadImageManager.m */; };
-		4E882A9A1DCAE87E000A0778 /* NHFileCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A8A1DCAE87E000A0778 /* NHFileCacheManager.m */; };
-		4E882A9B1DCAE87E000A0778 /* NHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A8C1DCAE87E000A0778 /* NHLocationManager.m */; };
-		4E882A9C1DCAE87E000A0778 /* NHNeiHanShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A8E1DCAE87E000A0778 /* NHNeiHanShareManager.m */; };
-		4E882A9D1DCAE87E000A0778 /* NHRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A901DCAE87E000A0778 /* NHRequestManager.m */; };
-		4E882A9E1DCAE87E000A0778 /* NHUserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A921DCAE87E000A0778 /* NHUserInfoManager.m */; };
-		4E882A9F1DCAE87E000A0778 /* NHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882A941DCAE87E000A0778 /* NHUtils.m */; };
+		4E882B4A1DCB243A000A0778 /* NhBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882B461DCB243A000A0778 /* NhBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,27 +53,8 @@
 		4E882A251DCAD464000A0778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E882A791DCAE87E000A0778 /* NHMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMainTabBarController.h; sourceTree = "<group>"; };
 		4E882A7A1DCAE87E000A0778 /* NHMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHMainTabBarController.m; sourceTree = "<group>"; };
-		4E882A801DCAE87E000A0778 /* NHAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAnimationManager.h; sourceTree = "<group>"; };
-		4E882A811DCAE87E000A0778 /* NHAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAnimationManager.m; sourceTree = "<group>"; };
-		4E882A821DCAE87E000A0778 /* NHCommonAPIConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCommonAPIConstant.h; sourceTree = "<group>"; };
-		4E882A831DCAE87E000A0778 /* NHCommonAPIConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCommonAPIConstant.m; sourceTree = "<group>"; };
-		4E882A841DCAE87E000A0778 /* NHCommonConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCommonConstant.h; sourceTree = "<group>"; };
-		4E882A851DCAE87E000A0778 /* NHCommonConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCommonConstant.m; sourceTree = "<group>"; };
-		4E882A861DCAE87E000A0778 /* NHDefaultHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDefaultHeader.h; sourceTree = "<group>"; };
-		4E882A871DCAE87E000A0778 /* NHDownloadImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDownloadImageManager.h; sourceTree = "<group>"; };
-		4E882A881DCAE87E000A0778 /* NHDownloadImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDownloadImageManager.m; sourceTree = "<group>"; };
-		4E882A891DCAE87E000A0778 /* NHFileCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFileCacheManager.h; sourceTree = "<group>"; };
-		4E882A8A1DCAE87E000A0778 /* NHFileCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHFileCacheManager.m; sourceTree = "<group>"; };
-		4E882A8B1DCAE87E000A0778 /* NHLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHLocationManager.h; sourceTree = "<group>"; };
-		4E882A8C1DCAE87E000A0778 /* NHLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHLocationManager.m; sourceTree = "<group>"; };
-		4E882A8D1DCAE87E000A0778 /* NHNeiHanShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNeiHanShareManager.h; sourceTree = "<group>"; };
-		4E882A8E1DCAE87E000A0778 /* NHNeiHanShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHNeiHanShareManager.m; sourceTree = "<group>"; };
-		4E882A8F1DCAE87E000A0778 /* NHRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHRequestManager.h; sourceTree = "<group>"; };
-		4E882A901DCAE87E000A0778 /* NHRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHRequestManager.m; sourceTree = "<group>"; };
-		4E882A911DCAE87E000A0778 /* NHUserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHUserInfoManager.h; sourceTree = "<group>"; };
-		4E882A921DCAE87E000A0778 /* NHUserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHUserInfoManager.m; sourceTree = "<group>"; };
-		4E882A931DCAE87E000A0778 /* NHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHUtils.h; sourceTree = "<group>"; };
-		4E882A941DCAE87E000A0778 /* NHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHUtils.m; sourceTree = "<group>"; };
+		4E882B451DCB243A000A0778 /* NhBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NhBaseViewController.h; sourceTree = "<group>"; };
+		4E882B461DCB243A000A0778 /* NhBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NhBaseViewController.m; sourceTree = "<group>"; };
 		5CE72E9017D7A403367F6304 /* libPods-neihan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-neihan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				4E882A721DCAE87E000A0778 /* Application */,
+				4E882B431DCB243A000A0778 /* Base */,
 				4E882A771DCAE87E000A0778 /* Main */,
 				4E882A7E1DCAE87E000A0778 /* Other */,
 				4E8829FE1DCAD464000A0778 /* Supporting Files */,
@@ -259,37 +232,49 @@
 		4E882A7E1DCAE87E000A0778 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				4E882A7F1DCAE87E000A0778 /* Tool */,
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		4E882A7F1DCAE87E000A0778 /* Tool */ = {
+		4E882B431DCB243A000A0778 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				4E882A801DCAE87E000A0778 /* NHAnimationManager.h */,
-				4E882A811DCAE87E000A0778 /* NHAnimationManager.m */,
-				4E882A821DCAE87E000A0778 /* NHCommonAPIConstant.h */,
-				4E882A831DCAE87E000A0778 /* NHCommonAPIConstant.m */,
-				4E882A841DCAE87E000A0778 /* NHCommonConstant.h */,
-				4E882A851DCAE87E000A0778 /* NHCommonConstant.m */,
-				4E882A861DCAE87E000A0778 /* NHDefaultHeader.h */,
-				4E882A871DCAE87E000A0778 /* NHDownloadImageManager.h */,
-				4E882A881DCAE87E000A0778 /* NHDownloadImageManager.m */,
-				4E882A891DCAE87E000A0778 /* NHFileCacheManager.h */,
-				4E882A8A1DCAE87E000A0778 /* NHFileCacheManager.m */,
-				4E882A8B1DCAE87E000A0778 /* NHLocationManager.h */,
-				4E882A8C1DCAE87E000A0778 /* NHLocationManager.m */,
-				4E882A8D1DCAE87E000A0778 /* NHNeiHanShareManager.h */,
-				4E882A8E1DCAE87E000A0778 /* NHNeiHanShareManager.m */,
-				4E882A8F1DCAE87E000A0778 /* NHRequestManager.h */,
-				4E882A901DCAE87E000A0778 /* NHRequestManager.m */,
-				4E882A911DCAE87E000A0778 /* NHUserInfoManager.h */,
-				4E882A921DCAE87E000A0778 /* NHUserInfoManager.m */,
-				4E882A931DCAE87E000A0778 /* NHUtils.h */,
-				4E882A941DCAE87E000A0778 /* NHUtils.m */,
+				4E882B441DCB243A000A0778 /* Controller */,
+				4E882B471DCB243A000A0778 /* Model */,
+				4E882B481DCB243A000A0778 /* Request */,
+				4E882B491DCB243A000A0778 /* View */,
 			);
-			path = Tool;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4E882B441DCB243A000A0778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E882B451DCB243A000A0778 /* NhBaseViewController.h */,
+				4E882B461DCB243A000A0778 /* NhBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E882B471DCB243A000A0778 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E882B481DCB243A000A0778 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4E882B491DCB243A000A0778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		6354443D837A23428746B604 /* Pods */ = {
@@ -496,18 +481,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E882A981DCAE87E000A0778 /* NHCommonConstant.m in Sources */,
-				4E882A961DCAE87E000A0778 /* NHAnimationManager.m in Sources */,
-				4E882A991DCAE87E000A0778 /* NHDownloadImageManager.m in Sources */,
 				4E882A031DCAD464000A0778 /* AppDelegate.m in Sources */,
-				4E882A9F1DCAE87E000A0778 /* NHUtils.m in Sources */,
-				4E882A9B1DCAE87E000A0778 /* NHLocationManager.m in Sources */,
-				4E882A9D1DCAE87E000A0778 /* NHRequestManager.m in Sources */,
-				4E882A9E1DCAE87E000A0778 /* NHUserInfoManager.m in Sources */,
-				4E882A9A1DCAE87E000A0778 /* NHFileCacheManager.m in Sources */,
-				4E882A971DCAE87E000A0778 /* NHCommonAPIConstant.m in Sources */,
+				4E882B4A1DCB243A000A0778 /* NhBaseViewController.m in Sources */,
 				4E882A951DCAE87E000A0778 /* NHMainTabBarController.m in Sources */,
-				4E882A9C1DCAE87E000A0778 /* NHNeiHanShareManager.m in Sources */,
 				4E882A001DCAD464000A0778 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
