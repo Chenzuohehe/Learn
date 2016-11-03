@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E882CA11DCB2DA5000A0778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882CA01DCB2DA5000A0778 /* main.m */; };
+		4E882CA41DCB2DA5000A0778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882CA31DCB2DA5000A0778 /* AppDelegate.m */; };
+		4E882CAC1DCB2DA5000A0778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E882CAB1DCB2DA5000A0778 /* Assets.xcassets */; };
+		4E882CAF1DCB2DA5000A0778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E882CAD1DCB2DA5000A0778 /* LaunchScreen.storyboard */; };
+		4E882CBA1DCB2DA5000A0778 /* neiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882CB91DCB2DA5000A0778 /* neiTests.m */; };
+		4E882CC51DCB2DA5000A0778 /* neiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882CC41DCB2DA5000A0778 /* neiUITests.m */; };
+		6A8984FFECC96E2B40FF1D8A /* libPods-nei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7921F9E29D5480046020051 /* libPods-nei.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E882CB61DCB2DA5000A0778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E882C941DCB2DA5000A0778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E882C9B1DCB2DA5000A0778;
+			remoteInfo = nei;
+		};
+		4E882CC11DCB2DA5000A0778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E882C941DCB2DA5000A0778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E882C9B1DCB2DA5000A0778;
+			remoteInfo = nei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11CE08ABA67A747DA1E43D2C /* Pods-nei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nei.release.xcconfig"; path = "Pods/Target Support Files/Pods-nei/Pods-nei.release.xcconfig"; sourceTree = "<group>"; };
+		2D4B35C62A712B31A2B47342 /* Pods-nei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nei/Pods-nei.debug.xcconfig"; sourceTree = "<group>"; };
+		4E882C9C1DCB2DA5000A0778 /* nei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E882CA01DCB2DA5000A0778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E882CA21DCB2DA5000A0778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		4E882CA31DCB2DA5000A0778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		4E882CAB1DCB2DA5000A0778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E882CAE1DCB2DA5000A0778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E882CB01DCB2DA5000A0778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E882CB51DCB2DA5000A0778 /* neiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E882CB91DCB2DA5000A0778 /* neiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neiTests.m; sourceTree = "<group>"; };
+		4E882CBB1DCB2DA5000A0778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E882CC01DCB2DA5000A0778 /* neiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E882CC41DCB2DA5000A0778 /* neiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neiUITests.m; sourceTree = "<group>"; };
+		4E882CC61DCB2DA5000A0778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E882CE21DCB2F6D000A0778 /* CZPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPrefixHeader.pch; sourceTree = "<group>"; };
+		F7921F9E29D5480046020051 /* libPods-nei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E882C991DCB2DA5000A0778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8984FFECC96E2B40FF1D8A /* libPods-nei.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E882CB21DCB2DA5000A0778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E882CBD1DCB2DA5000A0778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E882C931DCB2DA5000A0778 = {
+			isa = PBXGroup;
+			children = (
+				4E882C9E1DCB2DA5000A0778 /* nei */,
+				4E882CB81DCB2DA5000A0778 /* neiTests */,
+				4E882CC31DCB2DA5000A0778 /* neiUITests */,
+				4E882C9D1DCB2DA5000A0778 /* Products */,
+				F259584F993B204EF957C4C1 /* Pods */,
+				67418B3FCFDF0B65D8AA0B50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E882C9D1DCB2DA5000A0778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E882C9C1DCB2DA5000A0778 /* nei.app */,
+				4E882CB51DCB2DA5000A0778 /* neiTests.xctest */,
+				4E882CC01DCB2DA5000A0778 /* neiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E882C9E1DCB2DA5000A0778 /* nei */ = {
+			isa = PBXGroup;
+			children = (
+				4E882CDC1DCB2EA2000A0778 /* Application */,
+				4E882CD21DCB2E80000A0778 /* Base */,
+				4E882CD71DCB2E8C000A0778 /* Main */,
+				4E882CE11DCB2F39000A0778 /* Other */,
+				4E882C9F1DCB2DA5000A0778 /* Supporting Files */,
+			);
+			path = nei;
+			sourceTree = "<group>";
+		};
+		4E882C9F1DCB2DA5000A0778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E882CAB1DCB2DA5000A0778 /* Assets.xcassets */,
+				4E882CAD1DCB2DA5000A0778 /* LaunchScreen.storyboard */,
+				4E882CB01DCB2DA5000A0778 /* Info.plist */,
+				4E882CA01DCB2DA5000A0778 /* main.m */,
+				4E882CE21DCB2F6D000A0778 /* CZPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E882CB81DCB2DA5000A0778 /* neiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E882CB91DCB2DA5000A0778 /* neiTests.m */,
+				4E882CBB1DCB2DA5000A0778 /* Info.plist */,
+			);
+			path = neiTests;
+			sourceTree = "<group>";
+		};
+		4E882CC31DCB2DA5000A0778 /* neiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E882CC41DCB2DA5000A0778 /* neiUITests.m */,
+				4E882CC61DCB2DA5000A0778 /* Info.plist */,
+			);
+			path = neiUITests;
+			sourceTree = "<group>";
+		};
+		4E882CD21DCB2E80000A0778 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4E882CD31DCB2E80000A0778 /* Controller */,
+				4E882CD41DCB2E80000A0778 /* Model */,
+				4E882CD51DCB2E80000A0778 /* Request */,
+				4E882CD61DCB2E80000A0778 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4E882CD31DCB2E80000A0778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E882CD41DCB2E80000A0778 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E882CD51DCB2E80000A0778 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4E882CD61DCB2E80000A0778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E882CD71DCB2E8C000A0778 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4E882CD81DCB2E8C000A0778 /* Controller */,
+				4E882CD91DCB2E8C000A0778 /* Model */,
+				4E882CDA1DCB2E8C000A0778 /* Request */,
+				4E882CDB1DCB2E8C000A0778 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4E882CD81DCB2E8C000A0778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E882CD91DCB2E8C000A0778 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E882CDA1DCB2E8C000A0778 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4E882CDB1DCB2E8C000A0778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E882CDC1DCB2EA2000A0778 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4E882CA21DCB2DA5000A0778 /* AppDelegate.h */,
+				4E882CA31DCB2DA5000A0778 /* AppDelegate.m */,
+				4E882CDD1DCB2EA2000A0778 /* Controller */,
+				4E882CDE1DCB2EA2000A0778 /* Model */,
+				4E882CDF1DCB2EA2000A0778 /* Request */,
+				4E882CE01DCB2EA2000A0778 /* View */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4E882CDD1DCB2EA2000A0778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E882CDE1DCB2EA2000A0778 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E882CDF1DCB2EA2000A0778 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4E882CE01DCB2EA2000A0778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E882CE11DCB2F39000A0778 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		67418B3FCFDF0B65D8AA0B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7921F9E29D5480046020051 /* libPods-nei.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F259584F993B204EF957C4C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B35C62A712B31A2B47342 /* Pods-nei.debug.xcconfig */,
+				11CE08ABA67A747DA1E43D2C /* Pods-nei.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E882C9B1DCB2DA5000A0778 /* nei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E882CC91DCB2DA5000A0778 /* Build configuration list for PBXNativeTarget "nei" */;
+			buildPhases = (
+				AC34C1776EF433A6ADB0609A /* [CP] Check Pods Manifest.lock */,
+				4E882C981DCB2DA5000A0778 /* Sources */,
+				4E882C991DCB2DA5000A0778 /* Frameworks */,
+				4E882C9A1DCB2DA5000A0778 /* Resources */,
+				11D7F2564FC00EF72161D154 /* [CP] Embed Pods Frameworks */,
+				841D3267505C842C8AEB1B92 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nei;
+			productName = nei;
+			productReference = 4E882C9C1DCB2DA5000A0778 /* nei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E882CB41DCB2DA5000A0778 /* neiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E882CCC1DCB2DA5000A0778 /* Build configuration list for PBXNativeTarget "neiTests" */;
+			buildPhases = (
+				4E882CB11DCB2DA5000A0778 /* Sources */,
+				4E882CB21DCB2DA5000A0778 /* Frameworks */,
+				4E882CB31DCB2DA5000A0778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E882CB71DCB2DA5000A0778 /* PBXTargetDependency */,
+			);
+			name = neiTests;
+			productName = neiTests;
+			productReference = 4E882CB51DCB2DA5000A0778 /* neiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E882CBF1DCB2DA5000A0778 /* neiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E882CCF1DCB2DA5000A0778 /* Build configuration list for PBXNativeTarget "neiUITests" */;
+			buildPhases = (
+				4E882CBC1DCB2DA5000A0778 /* Sources */,
+				4E882CBD1DCB2DA5000A0778 /* Frameworks */,
+				4E882CBE1DCB2DA5000A0778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E882CC21DCB2DA5000A0778 /* PBXTargetDependency */,
+			);
+			name = neiUITests;
+			productName = neiUITests;
+			productReference = 4E882CC01DCB2DA5000A0778 /* neiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E882C941DCB2DA5000A0778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ChenZuo;
+				TargetAttributes = {
+					4E882C9B1DCB2DA5000A0778 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HK6UA2S7R6;
+						ProvisioningStyle = Automatic;
+					};
+					4E882CB41DCB2DA5000A0778 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HK6UA2S7R6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E882C9B1DCB2DA5000A0778;
+					};
+					4E882CBF1DCB2DA5000A0778 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HK6UA2S7R6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E882C9B1DCB2DA5000A0778;
+					};
+				};
+			};
+			buildConfigurationList = 4E882C971DCB2DA5000A0778 /* Build configuration list for PBXProject "nei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E882C931DCB2DA5000A0778;
+			productRefGroup = 4E882C9D1DCB2DA5000A0778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E882C9B1DCB2DA5000A0778 /* nei */,
+				4E882CB41DCB2DA5000A0778 /* neiTests */,
+				4E882CBF1DCB2DA5000A0778 /* neiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E882C9A1DCB2DA5000A0778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E882CAF1DCB2DA5000A0778 /* LaunchScreen.storyboard in Resources */,
+				4E882CAC1DCB2DA5000A0778 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E882CB31DCB2DA5000A0778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E882CBE1DCB2DA5000A0778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11D7F2564FC00EF72161D154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nei/Pods-nei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		841D3267505C842C8AEB1B92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nei/Pods-nei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC34C1776EF433A6ADB0609A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E882C981DCB2DA5000A0778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E882CA41DCB2DA5000A0778 /* AppDelegate.m in Sources */,
+				4E882CA11DCB2DA5000A0778 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E882CB11DCB2DA5000A0778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E882CBA1DCB2DA5000A0778 /* neiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E882CBC1DCB2DA5000A0778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E882CC51DCB2DA5000A0778 /* neiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E882CB71DCB2DA5000A0778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E882C9B1DCB2DA5000A0778 /* nei */;
+			targetProxy = 4E882CB61DCB2DA5000A0778 /* PBXContainerItemProxy */;
+		};
+		4E882CC21DCB2DA5000A0778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E882C9B1DCB2DA5000A0778 /* nei */;
+			targetProxy = 4E882CC11DCB2DA5000A0778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E882CAD1DCB2DA5000A0778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E882CAE1DCB2DA5000A0778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E882CC71DCB2DA5000A0778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E882CC81DCB2DA5000A0778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E882CCA1DCB2DA5000A0778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4B35C62A712B31A2B47342 /* Pods-nei.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HK6UA2S7R6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/nei/CZPrefixHeader.pch";
+				INFOPLIST_FILE = nei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenzuo.nei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4E882CCB1DCB2DA5000A0778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CE08ABA67A747DA1E43D2C /* Pods-nei.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HK6UA2S7R6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/nei/CZPrefixHeader.pch";
+				INFOPLIST_FILE = nei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenzuo.nei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4E882CCD1DCB2DA5000A0778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HK6UA2S7R6;
+				INFOPLIST_FILE = neiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenzuo.neiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nei.app/nei";
+			};
+			name = Debug;
+		};
+		4E882CCE1DCB2DA5000A0778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HK6UA2S7R6;
+				INFOPLIST_FILE = neiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenzuo.neiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nei.app/nei";
+			};
+			name = Release;
+		};
+		4E882CD01DCB2DA5000A0778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HK6UA2S7R6;
+				INFOPLIST_FILE = neiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenzuo.neiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nei;
+			};
+			name = Debug;
+		};
+		4E882CD11DCB2DA5000A0778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HK6UA2S7R6;
+				INFOPLIST_FILE = neiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenzuo.neiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E882C971DCB2DA5000A0778 /* Build configuration list for PBXProject "nei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E882CC71DCB2DA5000A0778 /* Debug */,
+				4E882CC81DCB2DA5000A0778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E882CC91DCB2DA5000A0778 /* Build configuration list for PBXNativeTarget "nei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E882CCA1DCB2DA5000A0778 /* Debug */,
+				4E882CCB1DCB2DA5000A0778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E882CCC1DCB2DA5000A0778 /* Build configuration list for PBXNativeTarget "neiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E882CCD1DCB2DA5000A0778 /* Debug */,
+				4E882CCE1DCB2DA5000A0778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E882CCF1DCB2DA5000A0778 /* Build configuration list for PBXNativeTarget "neiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E882CD01DCB2DA5000A0778 /* Debug */,
+				4E882CD11DCB2DA5000A0778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E882C941DCB2DA5000A0778 /* Project object */;
+}
