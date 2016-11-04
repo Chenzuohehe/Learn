@@ -9,6 +9,7 @@
 #import "NHMainTabbarViewController.h"
 #import "NHBaseNavigationViewController.h"
 #import "NHHomeViewController.h"
+#import "NHBaseRequest.h"
 
 @interface NHMainTabbarViewController ()
 

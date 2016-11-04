@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E026C6F1DCC657300A5C73F /* NHBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E026C6E1DCC657300A5C73F /* NHBaseRequest.m */; };
+		4E026C721DCC896300A5C73F /* NHServiceListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E026C711DCC896300A5C73F /* NHServiceListRequest.m */; };
 		4E882CA11DCB2DA5000A0778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882CA01DCB2DA5000A0778 /* main.m */; };
 		4E882CA41DCB2DA5000A0778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882CA31DCB2DA5000A0778 /* AppDelegate.m */; };
 		4E882CAC1DCB2DA5000A0778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E882CAB1DCB2DA5000A0778 /* Assets.xcassets */; };
@@ -124,6 +126,10 @@
 /* Begin PBXFileReference section */
 		11CE08ABA67A747DA1E43D2C /* Pods-nei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nei.release.xcconfig"; path = "Pods/Target Support Files/Pods-nei/Pods-nei.release.xcconfig"; sourceTree = "<group>"; };
 		2D4B35C62A712B31A2B47342 /* Pods-nei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nei/Pods-nei.debug.xcconfig"; sourceTree = "<group>"; };
+		4E026C6D1DCC657300A5C73F /* NHBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBaseRequest.h; sourceTree = "<group>"; };
+		4E026C6E1DCC657300A5C73F /* NHBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseRequest.m; sourceTree = "<group>"; };
+		4E026C701DCC896300A5C73F /* NHServiceListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHServiceListRequest.h; sourceTree = "<group>"; };
+		4E026C711DCC896300A5C73F /* NHServiceListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHServiceListRequest.m; sourceTree = "<group>"; };
 		4E882C9C1DCB2DA5000A0778 /* nei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E882CA01DCB2DA5000A0778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E882CA21DCB2DA5000A0778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -439,6 +445,8 @@
 		4E882CD51DCB2E80000A0778 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				4E026C6D1DCC657300A5C73F /* NHBaseRequest.h */,
+				4E026C6E1DCC657300A5C73F /* NHBaseRequest.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -482,6 +490,8 @@
 		4E882CDA1DCB2E8C000A0778 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				4E026C701DCC896300A5C73F /* NHServiceListRequest.h */,
+				4E026C711DCC896300A5C73F /* NHServiceListRequest.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -1179,6 +1189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E882EAB1DCB3318000A0778 /* NSDictionary+Addition.m in Sources */,
+				4E026C721DCC896300A5C73F /* NHServiceListRequest.m in Sources */,
 				4E882EE91DCB3318000A0778 /* MJPhotoProgressView.m in Sources */,
 				4E882EB01DCB3318000A0778 /* NSObject+GCD.m in Sources */,
 				4E882EF31DCB3318000A0778 /* TZPhotoPreviewCell.m in Sources */,
@@ -1224,6 +1235,7 @@
 				4E882ED01DCB3318000A0778 /* NHCustomNoNetworkEmptyView.m in Sources */,
 				4E882EEB1DCB3318000A0778 /* MJPhotoView.m in Sources */,
 				4E882EDF1DCB3318000A0778 /* NHRequestManager.m in Sources */,
+				4E026C6F1DCC657300A5C73F /* NHBaseRequest.m in Sources */,
 				4E882EBE1DCB3318000A0778 /* UIImageView+Addition.m in Sources */,
 				4E882EDC1DCB3318000A0778 /* NHFileCacheManager.m in Sources */,
 				4E882EEA1DCB3318000A0778 /* MJPhotoToolbar.m in Sources */,
