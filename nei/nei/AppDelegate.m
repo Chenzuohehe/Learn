@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NHMainTabbarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    NHMainTabbarViewController *tabbar = [[NHMainTabbarViewController alloc] init];
+    self.window.rootViewController = tabbar;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
