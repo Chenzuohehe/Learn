@@ -56,6 +56,7 @@
     } else {
         viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTitle:@"" tintColor:[UIColor colorWithRed:0.42f green:0.33f blue:0.27f alpha:1.00f] touchBlock:nil];
     }
+    [super pushViewController:viewController animated:animated];
 }
 
 - (void)viewDidLoad {

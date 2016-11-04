@@ -100,6 +100,7 @@
 		4E882EFE1DCB3414000A0778 /* NHNeiHanUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882EFD1DCB3414000A0778 /* NHNeiHanUserInfoModel.m */; };
 		4E882F011DCB342C000A0778 /* NHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882F001DCB342C000A0778 /* NHBaseModel.m */; };
 		4E882F041DCB347B000A0778 /* NHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882F031DCB347B000A0778 /* NHBaseViewController.m */; };
+		4E882F121DCC27B7000A0778 /* NHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882F111DCC27B7000A0778 /* NHHomeViewController.m */; };
 		6A8984FFECC96E2B40FF1D8A /* libPods-nei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7921F9E29D5480046020051 /* libPods-nei.a */; };
 /* End PBXBuildFile section */
 
@@ -304,6 +305,8 @@
 		4E882F001DCB342C000A0778 /* NHBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseModel.m; sourceTree = "<group>"; };
 		4E882F021DCB347B000A0778 /* NHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBaseViewController.h; sourceTree = "<group>"; };
 		4E882F031DCB347B000A0778 /* NHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseViewController.m; sourceTree = "<group>"; };
+		4E882F101DCC27B7000A0778 /* NHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHomeViewController.h; sourceTree = "<group>"; };
+		4E882F111DCC27B7000A0778 /* NHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHHomeViewController.m; sourceTree = "<group>"; };
 		F7921F9E29D5480046020051 /* libPods-nei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -364,6 +367,7 @@
 				4E882CD21DCB2E80000A0778 /* Base */,
 				4E882CD71DCB2E8C000A0778 /* Main */,
 				4E882CE11DCB2F39000A0778 /* Other */,
+				4E882F0A1DCC278A000A0778 /* Home */,
 				4E882C9F1DCB2DA5000A0778 /* Supporting Files */,
 			);
 			path = nei;
@@ -916,6 +920,55 @@
 			path = WMPlayer;
 			sourceTree = "<group>";
 		};
+		4E882F0A1DCC278A000A0778 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4E882F0B1DCC2793000A0778 /* Main */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4E882F0B1DCC2793000A0778 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4E882F0C1DCC2793000A0778 /* Controller */,
+				4E882F0D1DCC2793000A0778 /* Model */,
+				4E882F0E1DCC2793000A0778 /* Request */,
+				4E882F0F1DCC2793000A0778 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4E882F0C1DCC2793000A0778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E882F101DCC27B7000A0778 /* NHHomeViewController.h */,
+				4E882F111DCC27B7000A0778 /* NHHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E882F0D1DCC2793000A0778 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E882F0E1DCC2793000A0778 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4E882F0F1DCC2793000A0778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		67418B3FCFDF0B65D8AA0B50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1142,6 +1195,7 @@
 				4E882EF51DCB3318000A0778 /* TZVideoPlayerController.m in Sources */,
 				4E882EB51DCB3318000A0778 /* NSString+Extension.m in Sources */,
 				4E882EED1DCB3318000A0778 /* TZAssetCell.m in Sources */,
+				4E882F121DCC27B7000A0778 /* NHHomeViewController.m in Sources */,
 				4E882EAA1DCB3318000A0778 /* NSDate+Addition.m in Sources */,
 				4E882EE11DCB3318000A0778 /* NHUtils.m in Sources */,
 				4E882F041DCB347B000A0778 /* NHBaseViewController.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "NHMainTabbarViewController.h"
 #import "NHBaseNavigationViewController.h"
+#import "NHHomeViewController.h"
 
 @interface NHMainTabbarViewController ()
 
@@ -41,6 +42,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self addChildViewControllerWithClassname:[NHHomeViewController description] imagename:@"home" title:@"首页"];
     
     
 }
