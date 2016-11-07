@@ -9,7 +9,8 @@
 #import "NHMainTabbarViewController.h"
 #import "NHBaseNavigationViewController.h"
 #import "NHHomeViewController.h"
-#import "NHBaseRequest.h"
+#import "NHServiceListRequest.h"
+#import "NHBaseNavigationViewController.h"
 
 @interface NHMainTabbarViewController ()
 
@@ -44,7 +45,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self addChildViewControllerWithClassname:[NHHomeViewController description] imagename:@"home" title:@"首页"];
-    
+    NHServiceListRequest * requset = [NHServiceListRequest nh_request];
+    requset.nh_url = kNHHomeServiceListAPI;
+    [requset nh_sendRequestWithCompletion:^(id response, BOOL success, NSString *message) {
+        if (success) {
+            NHBaseNavigationViewController * homeNav = (NHBaseNavigationViewController *)self.viewControllers.firstObject;
+            NHHomeViewController * home = (NHHomeViewController *)homeNav.viewControllers.firstObject;
+        }
+    }];
     
 }
 

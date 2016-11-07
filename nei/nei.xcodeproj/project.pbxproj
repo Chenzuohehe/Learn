@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E026C6F1DCC657300A5C73F /* NHBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E026C6E1DCC657300A5C73F /* NHBaseRequest.m */; };
 		4E026C721DCC896300A5C73F /* NHServiceListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E026C711DCC896300A5C73F /* NHServiceListRequest.m */; };
+		4E603E0A1DD01E430082A984 /* NHHomeUserIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E603E091DD01E430082A984 /* NHHomeUserIconView.m */; };
 		4E882CA11DCB2DA5000A0778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882CA01DCB2DA5000A0778 /* main.m */; };
 		4E882CA41DCB2DA5000A0778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E882CA31DCB2DA5000A0778 /* AppDelegate.m */; };
 		4E882CAC1DCB2DA5000A0778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E882CAB1DCB2DA5000A0778 /* Assets.xcassets */; };
@@ -130,6 +131,8 @@
 		4E026C6E1DCC657300A5C73F /* NHBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseRequest.m; sourceTree = "<group>"; };
 		4E026C701DCC896300A5C73F /* NHServiceListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHServiceListRequest.h; sourceTree = "<group>"; };
 		4E026C711DCC896300A5C73F /* NHServiceListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHServiceListRequest.m; sourceTree = "<group>"; };
+		4E603E081DD01E430082A984 /* NHHomeUserIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHomeUserIconView.h; sourceTree = "<group>"; };
+		4E603E091DD01E430082A984 /* NHHomeUserIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHHomeUserIconView.m; sourceTree = "<group>"; };
 		4E882C9C1DCB2DA5000A0778 /* nei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E882CA01DCB2DA5000A0778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E882CA21DCB2DA5000A0778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -975,6 +978,8 @@
 		4E882F0F1DCC2793000A0778 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4E603E081DD01E430082A984 /* NHHomeUserIconView.h */,
+				4E603E091DD01E430082A984 /* NHHomeUserIconView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1224,6 +1229,7 @@
 				4E882ED41DCB3318000A0778 /* NHRefreshFooter.m in Sources */,
 				4E882EF81DCB3318000A0778 /* WMPlayer.m in Sources */,
 				4E882EDE1DCB3318000A0778 /* NHNeiHanShareManager.m in Sources */,
+				4E603E0A1DD01E430082A984 /* NHHomeUserIconView.m in Sources */,
 				4E882EF21DCB3318000A0778 /* TZPhotoPickerController.m in Sources */,
 				4E882EC81DCB3318000A0778 /* UIViewController+Loading.m in Sources */,
 				4E882EAC1DCB3318000A0778 /* NSFileManager+Paths.m in Sources */,
